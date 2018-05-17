@@ -29,6 +29,7 @@ public class AccessLogListener implements ServletRequestListener {
         System.out.println("Access Method:" + request.getMethod());
         System.out.println("IP Address:" + request.getRemoteAddr());
         System.out.println("User Agent:" + request.getHeader("User-Agent"));
+        //System.out.println("Request Status:"+ request);
         System.out.println("----------------------------------------------");
         
     }
